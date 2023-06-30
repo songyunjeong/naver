@@ -75,6 +75,7 @@ header {
   border: 1px solid #03c75a;
   border-radius: 33px;
   margin: 35px auto 0;
+  overflow: hidden;
   position: relative;
 }
 
@@ -91,7 +92,7 @@ header {
 
 .search_area .search_bar .search_input {
   width: 450px;
-  height: 55px;
+  height: 57px;
   box-sizing: border-box;
   position: absolute;
   top: 0;
