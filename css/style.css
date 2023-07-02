@@ -262,7 +262,6 @@ header {
 }
 
 .contents_left .contents_news {
-  height: 425px;
   border: 1px solid #ccc;
   border-radius: 9px;
 }
@@ -275,12 +274,13 @@ header {
   display: inline-block;
   margin-right: 5px;
 }
+
 .contents_left .contents_title > ul > li:not(:last-child)::after {
   content: "/";
   padding-left: 10px;
 }
 
-.frame {
+.contents_left .frame {
   height: 50px;
   margin: 0 20px;
   font-size: 14px;
@@ -289,14 +289,16 @@ header {
   overflow: hidden;
   position: relative;
 }
-.frame a {
+
+.contents_left .frame a {
   height: 50px;
   font-weight: bold;
   line-height: 50px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
-.frame ul {
-  width: 520px;
+
+.contents_left .frame ul {
+  width: 400px;
   height: 250px;
   position: absolute;
   top: 0;
@@ -342,21 +344,42 @@ header {
   }
 }
 
-.frame li {
+.contents_left .frame li {
   width: 450px;
   height: 50px;
   line-height: 50px;
   margin-left: 90px;
 }
 
-.frame .category {
-  width: 190px;
+.contents_left .frame .category {
+  width: 235px;
   font-size: 0;
   float: right;
 }
-.frame .category div {
+
+.contents_left .frame .category div {
   display: inline-block;
   font-size: 12px;
+}
+
+.contents_left .news {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+}
+
+.contents_left .news li {
+  width: 16.6%;
+  height: 56px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents_left .news > li img {
+  height: 20px;
 }
 
 .contents_left .contents_shopping {
