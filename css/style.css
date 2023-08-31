@@ -16,6 +16,10 @@ button {
   border: 0;
 }
 
+.blind {
+  display: none;
+}
+
 /******** header ********/
 header {
   width: 1280px;
@@ -411,4 +415,16 @@ footer {
   width: 1280px;
   clear: both;
   margin: 0 auto;
+}
+
+footer .banner_area {
+  border-bottom: 1px solid #eee;
+}
+
+footer .notice_area {
+  border-bottom: 1px solid #eee;
+}
+
+footer .aside_area {
+  border-bottom: 1px solid #eee;
 }
